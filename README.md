@@ -110,5 +110,5 @@ Cropped, zoomed and centered
 
 ## And here is the final plot
 
-![Caption for the
-picture.](/Users/chriswoods/Documents/GitHub/bird_colours/output/images/MyBritishBirds.png)
+![The Colours of my British Birds Data
+Viz](output/images/MyBritishBirds.png)

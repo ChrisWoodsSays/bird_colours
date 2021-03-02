@@ -191,4 +191,4 @@ ggsave("MyBritishBirds.png", g, path = file.path(outputDir, "images"),device = "
 
 ```
 
-![Caption for the picture.](`r here::here(outputDir, "images", "MyBritishBirds.png")`)
+![The Colours of my British Birds Data Viz](output/images/MyBritishBirds.png)
