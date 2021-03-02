@@ -1,9 +1,10 @@
 ---
 title: "The Colours of my British Birds"
 output: github_document
-author: Chris Woods
 ---
-## Laying out Images and Fonts in ggplot with colour extraction too
+Laying out images and fonts in ggplot with colour extraction too.
+
+@ChrisWoodsSays, 2.3.2021
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
@@ -51,9 +52,10 @@ birds <- data.frame(read_csv(file.path(dataDir,"birds.csv"))) %>%
   clean_names("lower_camel") %>%
   filter(include == "Y") %>%
   mutate(croppedImage = "", fileName = "",
-         imageID = row_number())
+         imageID = row_number(),
+         nameWithLink = paste0("[", name, "](", imageInfoUrl, ")"))
 
-knitr::kable(birds %>% select(name, scientificName, ukConservationStatus, whatTheyEat, imageCredit),
+knitr::kable(birds %>% select(nameWithLink, scientificName, ukConservationStatus, whatTheyEat, imageCredit),
              col.names = c("Name", "Scientific Name", "Conservation Status", "What they eat", "Image Credit"))
 ```
 

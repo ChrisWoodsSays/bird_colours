@@ -1,6 +1,9 @@
-Laying out Images and Fonts in ggplot with colour extraction too
+The Colours of my British Birds
 ================
-Chris Woods
+
+Laying out images and fonts in ggplot with colour extraction too.
+
+@ChrisWoodsSays, 2.3.2021
 
 ## The Challenge
 
@@ -35,16 +38,16 @@ I chose eight birds that I either see in my garden or in the case of my
 favorite, the Kingfisher, nearby. I used images from Wikipedia. The
 birds and accreditations are listed below.
 
-| Name                          | Scientific Name     | Conservation Status | What they eat                                                                                                 | Image Credit                                                                                                               |
-|:------------------------------|:--------------------|:--------------------|:--------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
-| Kingfisher                    | Alcedo atthis       | Amber               | Fish and aquatic insects                                                                                      | Frank-2.0, CC0, via Wikimedia Commons                                                                                      |
-| Robin                         | Erithacus rubecula  | Green               | Worms, seeds, fruits, insects and other invertebrates                                                         | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
-| Goldfinch                     | Carduelis carduelis | Green               | Seeds and insects in summer.                                                                                  | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
-| Nuthatch                      | Sitta europaea      | Green               | Insects, hazel nuts, acorns, beechmast and other nuts and seed                                                | Paweł Kuźniar, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons                        |
-| Blue tit                      | Cyanistes caeruleus | Green               | Insects, caterpillars, seeds and nuts.                                                                        | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
-| Blackbird                     | Turdus merula       | Green               | Blackbird food consists of a variety of insects and worms, but they also eat berries and fruit when in season | Andreas Trepte, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons                       |
-| Bullfinch                     | Pyrrhula pyrrhula   | Amber               | Seeds, buds and insects (for young).                                                                          | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
-| Greater-spotted<br>Woodpecker | Dendrocopos major   | Green               | Insects, seeds and nuts                                                                                       | Hangsna, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons                              |
+| Name                                                                                        | Scientific Name     | Conservation Status | What they eat                                                                                                 | Image Credit                                                                                                               |
+|:--------------------------------------------------------------------------------------------|:--------------------|:--------------------|:--------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+| [Kingfisher](https://commons.wikimedia.org/wiki/File:Eisvogel_kingfisher.jpg)               | Alcedo atthis       | Amber               | Fish and aquatic insects                                                                                      | Frank-2.0, CC0, via Wikimedia Commons                                                                                      |
+| [Robin](https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg)    | Erithacus rubecula  | Green               | Worms, seeds, fruits, insects and other invertebrates                                                         | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
+| [Goldfinch](https://commons.wikimedia.org/wiki/File:Carduelis_carduelis_close_up.jpg)       | Carduelis carduelis | Green               | Seeds and insects in summer.                                                                                  | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
+| [Nuthatch](https://commons.wikimedia.org/wiki/File:Sitta_europaea_wildlife_2_1.jpg)         | Sitta europaea      | Green               | Insects, hazel nuts, acorns, beechmast and other nuts and seed                                                | Paweł Kuźniar, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons                        |
+| [Blue tit](https://commons.wikimedia.org/wiki/File:Eurasian_blue_tit_Lancashire.jpg)        | Cyanistes caeruleus | Green               | Insects, caterpillars, seeds and nuts.                                                                        | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
+| [Blackbird](https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg)                   | Turdus merula       | Green               | Blackbird food consists of a variety of insects and worms, but they also eat berries and fruit when in season | Andreas Trepte, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons                       |
+| [Bullfinch](https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg)                     | Pyrrhula pyrrhula   | Amber               | Seeds, buds and insects (for young).                                                                          | © Francis C. Franklin / CC-BY-SA-3.0, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons |
+| [Greater-spotted<br>Woodpecker](https://commons.wikimedia.org/wiki/File:Hackspettshona.jpg) | Dendrocopos major   | Green               | Insects, seeds and nuts                                                                                       | Hangsna, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons                              |
 
 ## Extracting Colour Palette
 
