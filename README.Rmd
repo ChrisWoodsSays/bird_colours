@@ -15,7 +15,7 @@ downloadOriginals = TRUE
 getPalettes = TRUE
 
 # Load packages
-pacman::p_load(tidyverse, colorfindr, magick, ggforce, ggtext, ggtextures, here, tools, janitor, kable)
+pacman::p_load(tidyverse, colorfindr, magick, ggforce, ggtext, ggtextures, here, tools, janitor)
 # devtools::install_github("clauswilke/ggtextures")
 
 # Load helper functions
@@ -31,6 +31,8 @@ outputDir <- here::here("output")
 To create a complete data visualisation using ggplot, i.e. without the need to add any finishing touches with a package such as Illustrator.  To include specific fonts, cropped images and a repeating pattern where each item has similar constituent parts.
 
 To make it a bit more interesting, I wanted to use R to extract colours from the included images.
+
+My thanks to @
 
 ## Packages
 I used the following R packages:
