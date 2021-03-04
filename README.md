@@ -106,7 +106,11 @@ Cropped, zoomed and centered
 
 </div>
 
-![](README_files/figure-gfm/getPalettes-1.png)<!-- -->![](README_files/figure-gfm/getPalettes-2.png)<!-- -->![](README_files/figure-gfm/getPalettes-3.png)<!-- -->![](README_files/figure-gfm/getPalettes-4.png)<!-- -->![](README_files/figure-gfm/getPalettes-5.png)<!-- -->![](README_files/figure-gfm/getPalettes-6.png)<!-- -->![](README_files/figure-gfm/getPalettes-7.png)<!-- -->![](README_files/figure-gfm/getPalettes-8.png)<!-- -->
+![](README_files/figure-gfm/getPalettes-1.png)<!-- -->![](README_files/figure-gfm/getPalettes-2.png)<!-- -->![](README_files/figure-gfm/getPalettes-3.png)<!-- -->
+
+    ## Warning: Quick-TRANSfer stage steps exceeded maximum (= 11857600)
+
+![](README_files/figure-gfm/getPalettes-4.png)<!-- -->![](README_files/figure-gfm/getPalettes-5.png)<!-- -->![](README_files/figure-gfm/getPalettes-6.png)<!-- -->![](README_files/figure-gfm/getPalettes-7.png)<!-- -->![](README_files/figure-gfm/getPalettes-8.png)<!-- -->
 
 ## And here is the final plot
 

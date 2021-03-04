@@ -15,7 +15,7 @@ downloadOriginals = TRUE
 getPalettes = TRUE
 
 # Load packages
-pacman::p_load(tidyverse, colorfindr, magick, ggforce, ggtext, ggtextures, here, tools, janitor, kable)
+pacman::p_load(tidyverse, colorfindr, magick, ggforce, ggtext, ggtextures, here, tools, janitor)
 # devtools::install_github("clauswilke/ggtextures")
 
 # Load helper functions
